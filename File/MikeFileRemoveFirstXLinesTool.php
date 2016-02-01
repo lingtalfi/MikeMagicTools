@@ -24,7 +24,7 @@ class MikeFileRemoveFirstXLinesTool
                 }
                 
                 if (is_array($lines)) {
-                    return implode($lines);
+                    return implode('', $lines);
                 }
                 return ""; // assuming x > nbLines
             });

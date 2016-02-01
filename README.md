@@ -27,6 +27,7 @@ How to use
 -------------
 
 
+
 ### prepender tool 
 
 Here is how to use the prepend tool, 
@@ -62,8 +63,7 @@ MikeFilePreprenderTool::prependFiles($files, $prependix);
 
 ### remove first x lines tool 
 
-You might need this if you've used the prepender tool for debug purposes.
-Then use this tool to go back to the original files' state.
+Use this method to remove the first x lines of the given file set.
 
 
 ```php
@@ -92,8 +92,17 @@ MikeFileRemoveFirstXLinesTool::removeFirstXLines(1, $files);
 ```
 
 
+### reduce consecutive end of lines tool 
+ 
+This tool is useful to remove unecessary end of lines in your files.
 
 
+### strip lines tool
+ 
+This tool removes all the lines containing a certain expression, in the given set of files.
+
+ 
+ 
 
 
 
@@ -112,10 +121,23 @@ For more info, please browse the source code's comments.
 
 
 
+Give me some snippets
+-----------------
+
+Since 1.1.0, there is a snippets folder (in the doc directory).
+It contains the following snippets:
+
+- lingosiris: a safe workflow to prepend a first line to the js files of your app, and remove them when finished
+
+
 
 
 History Log
 ------------------
+    
+- 1.1.0 -- 2016-02-01
+
+    - add File/MikeFileStripLinesTool
     
 - 1.0.0 -- 2016-02-01
 
