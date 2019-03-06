@@ -18,7 +18,7 @@ Install
 
 Using the [uni tool](https://github.com/lingtalfi/universe-naive-importer)
 ```bash
-uni import MikeMagicTools
+uni import Ling/MikeMagicTools
 ```
 
 
@@ -49,8 +49,8 @@ so so I needed to prepend every js file with a "console.log ( 'file $xx loaded' 
 <?php
 
 
-use DirScanner\YorgDirScannerTool;
-use MikeMagicTools\File\MikeFilePreprenderTool;
+use Ling\DirScanner\YorgDirScannerTool;
+use Ling\MikeMagicTools\File\MikeFilePreprenderTool;
 
 require_once "bigbang.php"; // start the local universe
 
@@ -80,8 +80,8 @@ Use this method to remove the first x lines of the given file set.
 <?php
 
 
-use DirScanner\YorgDirScannerTool;
-use MikeMagicTools\File\MikeFileRemoveFirstXLinesTool;
+use Ling\DirScanner\YorgDirScannerTool;
+use Ling\MikeMagicTools\File\MikeFileRemoveFirstXLinesTool;
 
 require_once "bigbang.php"; // start the local universe
 

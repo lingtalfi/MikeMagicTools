@@ -1,6 +1,6 @@
 <?php
 
-namespace MikeMagicTools\File;
+namespace Ling\MikeMagicTools\File;
 
 /*
  * LingTalfi 2016-02-01

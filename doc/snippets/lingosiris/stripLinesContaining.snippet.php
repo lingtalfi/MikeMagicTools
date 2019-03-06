@@ -1,7 +1,7 @@
 <?php
 
-use DirScanner\YorgDirScannerTool;
-use MikeMagicTools\File\MikeFileStripLinesTool;
+use Ling\DirScanner\YorgDirScannerTool;
+use Ling\MikeMagicTools\File\MikeFileStripLinesTool;
 
 require_once "bigbang.php"; // start the local universe
 
